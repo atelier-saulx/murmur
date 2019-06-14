@@ -1,7 +1,7 @@
 {
   "name": "saulx-murmur",
   "description": "prebuild murmur for node modules v72 and x64 infrastrcutre",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./index.js",
   "scripts": {
     "test": "node test/index.js"

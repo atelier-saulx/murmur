@@ -2,7 +2,7 @@
 
 module.exports = (() => {
   try {
-    const murmur = require("./build/" +
+    const murmur = require("./builds/" +
       process.platform +
       "_" +
       process.arch +

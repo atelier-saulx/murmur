@@ -3,6 +3,7 @@
   "description": "prebuild murmur for node modules v72 and x64 architecture",
   "version": "0.2.0",
   "main": "./index.js",
+  "browser": "./browser.js",
   "scripts": {
     "test": "node test/index.js"
   }

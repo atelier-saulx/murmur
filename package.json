@@ -1,8 +1,11 @@
 {
   "name": "saulx-murmur",
-  "description": "prebuild murmur for node modules v72 and x64 architecture",
-  "version": "0.2.3",
+  "description": "prebuild murmur native",
+  "version": "0.3.0",
   "main": "./index.js",
+  "dependencies": {
+    "nan": "^2.14.1"
+  },
   "scripts": {
     "test": "node test/index.js"
   }

@@ -3,8 +3,8 @@
 const getBuild = () => {
   let murmur;
   try {
-    console.info(process.platform, process.arch, process.versions.modules);
-    murmur = require("./builds/incremental" +
+    // console.info(process.platform, process.arch, process.versions.modules);
+    murmur = require("./builds/incremental/" +
       process.platform +
       "_" +
       process.arch +
@@ -12,8 +12,9 @@ const getBuild = () => {
       process.versions.modules +
       ".node");
   } catch (err) {
-    // murmur = require("murmurhash-native/incremental");
-    // console.log(murmur);
+    console.info("cannot find prebuid", err);
+    murmur = require("murmurhash-native");
+    console.log(murmur);
   }
 
   return murmur;

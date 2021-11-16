@@ -11,9 +11,9 @@ const getBuild = () => {
       process.versions.modules +
       ".node");
   } catch (err) {
-    // console.info("cannot find prebuid", err);
-    // murmur = require("murmurhash-native");
-    // console.log(murmur);
+    console.info("cannot find prebuid", err);
+    murmur = require("murmurhash-native");
+    console.log(murmur);
   }
 
   return murmur;

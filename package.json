@@ -3,8 +3,8 @@
   "description": "prebuild murmur native",
   "version": "1.0.0",
   "main": "./index.js",
-  "dependencies": {
-    "nan": "^2.14.1"
+  "devDependencies": {
+    "murmurhash-native": "^3.5.0"
   },
   "scripts": {
     "test": "node test/index.js"
